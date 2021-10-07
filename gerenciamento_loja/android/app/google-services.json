@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263439771157",
+    "project_id": "projeto-vini",
+    "storage_bucket": "projeto-vini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263439771157:android:ee7bbe9acd10a6b698501c",
+        "android_client_info": {
+          "package_name": "br.com.dasilva.gerenciamento_loja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263439771157-ni906c7nfrvegs9b6aq3s4l4v11dpdqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8T0GQ1vrlbuhwKbfTdc9HIGf0XmMULb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263439771157-ni906c7nfrvegs9b6aq3s4l4v11dpdqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
