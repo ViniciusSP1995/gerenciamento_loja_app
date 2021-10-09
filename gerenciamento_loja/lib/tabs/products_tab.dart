@@ -14,8 +14,8 @@ class _ProductsTabState extends State<ProductsTab> with AutomaticKeepAliveClient
   Widget build(BuildContext context) {
     super.build(context);
     
-    return FutureBuilder<QuerySnapshot<Map<String, dynamic>>>(
-      future: FirebaseFirestore.instance.collection("products").get(),
+    return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
+      stream: FirebaseFirestore.instance.collection("products").snapshots(),
       builder: (context, snapshot){
         if(!snapshot.hasData) return Center(
           child: CircularProgressIndicator(
